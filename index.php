@@ -18,6 +18,7 @@
   </head>
   
   <body>
+	  Romka pidr
   	<div class="wrapper">
   <!-- 	Menu   -->
   			<nav id="Nav" class="navbar navbar-inverse nav-top" style=" background-image: linear-gradient(to bottom, #d6d6d6 0%, #d6d6d6 100%);    border-color: #d6d6d6;">
