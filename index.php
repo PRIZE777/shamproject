@@ -26,91 +26,92 @@
 	  	   		<!-- В бутстраповсокм navbar`е изменена палитра цветов. Не более -->
 	  			<div class="container-fluid">
 	  			<!-- Лого для lg, md, sm -->
-	   				<div class="col-md-2 col-sm-4 navbar-header hidden-xs">
-	   					<a href="#" class="navbar-brand">
-	   						<img src="img/logo.png" width="240" height="80" alt="Brokers77">
-	  					</a>
-	  					<small class="brand_sm">
-	  					Покупка и продажа бизнеса
-	  					</small>
-	      			</div>
-	      			<!-- Лого для xs -->
-	      			<div class="col-xs-12 navbar-header hidden-lg hidden-md hidden-sm">
-	   					<a href="#" class="navbar-brand" style="text-align: center">
-	   						<img src="img/logo.png" width="240" height="80" alt="Brokers77">
-	  					</a>
-	  					<small id="small" class="brand_sm">
-	  					Покупка и продажа бизнеса
-	  					</small>
-	      			</div>
-	      			<!-- Навигация для lg (купля/продажа для lg и md) -->
-	    			<div class="mg-top col-lg-3 hidden-md hidden-sm hidden-xs pull-right">
-		    			<div class="mg-left">
-			    			<span class="contactcs">+7 916 707 16 53<br>+7 916 958 33 00</span>
-							<p class="contacts_m">Москва, Кривоколенный переулок,<br>д.5, стр.4, офис 401</p>
-		    			</div>
-	    			</div>
-	    			<div class="col-lg-2 col-md-3 col-lg-offset-1 col-md-offset-1 hidden-sm hidden-xs">
-	      				<a class="bord" href="#">Заявка на покупку</a>
-	      			</div>
-	    			<div class="col-lg-2 col-md-3 col-lg-offset-1 hidden-sm hidden-xs">
-	      				<a class="bord" href="#">Заявка на продажу</a>
-	    			</div>
-	    			<!-- Навигация для md -->
-	    			<div class="mg-top hidden-lg col-md-3 hidden-sm hidden-xs pull-right">
-		    			<span class="contactcs">+7 916 707 16 53<br>+7 916 958 33 00</span>
-		    			<p class="contacts_m">Москва, Кривоколенный переулок,<br>д.5, стр.4, офис 401</p>
-	    			</div>
-	    			<!-- Навигация для sm -->
-	    			<div id="Contact_sm" class="mg-top col-sm-4 hidden-lg hidden-md hidden-xs pull-right">
-		    			<span class="color contactcs_sm">+7 916 707 16 53<br>+7 916 958 33 00</span>
-		    			<p class="contacts_sm_m">Москва, Кривоколенный переулок,<br>д.5, стр.4, офис 401</p>
-	    			</div>
-	    			<div class="hidden-lg hidden-md col-sm-4 hidden-xs">
-	      				<a class="bord_sm" href="#">Заявка на покупку</a>
-	      			</div>
-	    			<div class="hidden-lg hidden-md col-sm-4 hidden-xs">
-	      				<a id="Prod_sm" class="bord_sm" href="#">Заявка на продажу</a>
-	    			</div>
-	    			<!-- Навигация для xs -->
-	    			<div class="mg-top col-xs-6 hidden-lg hidden-md hidden-sm">
-		    			<span class="color contactcs_xs">+7 916 707 16 53<br>+7 916 958 33 00</span>
-		    			<p class="contacts_xs_m">Москва, Кривоколенный переулок,<br>д.5, стр.4, офис 401</p>
-	    			</div>
-	    			<div class="col-xs-6 hidden-lg hidden-sm hidden-md">
-					<a class="bord_xs" href="#">Заявка на покупку</a>
-	      			</div>
-	      			<div class="col-xs-6 hidden-lg hidden-sm hidden-md">
-	      				<a id="Prod_xs" class="bord_xs" href="#">Заявка на продажу</a>
-	      			</div>
+	   				<div class="col-md-6">
+                        <div class="col-md-2"> <h2>АВИОР КОНСАЛТ</h2></div>
+                        <div class="col-md-1 col-md-offset-1"><i class="fa fa-vk fa-4x" aria-hidden="true"></i></div>
+                        <div class="col-md-1 marg-left"><i class="fa fa-instagram fa-4x" aria-hidden="true"></i></div>
+
+
+                    </div>
+                    <div class="col-md-6 text-right top-kontakts">
+
+                        +7 916 707 16 53<br>+7 916 958 33 00<br>
+                        <p>Москва, Кривоколенный переулок,<br>д.5, стр.4, офис 401</p>
+                    </div>
 	  			</div>
 			</nav>
 			
 			<!-- Основная часть -->
-		<div id="Main" class="container">
+		<div id="Main" class="container hidden-xs hidden-sm">
 			<div class="row">
-				<div class="col-md-7 marg-top">
-                <div class="col-md-4 col-md-offset-4">БУХГАЛТЕРСКИЕ УСЛУГИ</div>
-                 <div class="col-md-4">ЮРИДИЧЕСКИЕ УСЛУГИ</div>
-                    <div class="col-md-4 col-md-offset-4">ПОКУПКА/ ПРОДАЖА ГОТОВОГО БИЗНЕСА</div>
-                    <div class="col-md-4">ОТКРЫТИЕ СЧЕТА В БАНКЕ</div>
-                    <div class="col-md-4 col-md-offset-4">ПРОДАЖА ФРАНШИЗ</div>
-                    <div class="col-md-4">ПОДБОР ПЕРСОНАЛА</div>
+				<div class="col-md-7 marg-top text-header podsvetka">
+                    <div class="col-md-4 col-md-offset-3 marg-top1 text-center ic"><i class="fa fa-tablet fa-5x" aria-hidden="true"></i><br><b><span class="text-top">БУХГАЛТЕРСКИЕ УСЛУГИ</span></b></div>
+                 <div class="col-md-4 marg-top1 text-center ic"><i class="fa fa-briefcase fa-5x" aria-hidden="true"></i><br><b><span class="text-top">ЮРИДИЧЕСКИЕ УСЛУГИ</span></b></div>
+                    <div class="col-md-4 col-md-offset-3 marg-top1 text-center ic ybral-padding"><i class="fa fa-credit-card-alt fa-4x" aria-hidden="true"></i><br><b><span class="text-top">ПОКУПКА/ ПРОДАЖА ГОТОВОГО БИЗНЕСА</span></b></div>
+                    <div class="col-md-4 marg-top1 text-center ic"><i class="fa fa-university fa-4x" aria-hidden="true"></i><br><b><span class="text-top">ОТКРЫТИЕ СЧЕТА В БАНКЕ</span></b></div>
+                    <div class="col-md-4 col-md-offset-3 text-center marg-top1 ic"><i class="fa fa-building fa-4x" aria-hidden="true"></i><br><b><span class="text-top">ПРОДАЖА ФРАНШИЗ</span></b></div>
+                    <div class="col-md-4 marg-top1 text-center ic"><i class="fa fa-users fa-4x" aria-hidden="true"></i><br><b><span class="text-top">ПОДБОР ПЕРСОНАЛА</span></b></div>
 
 
 
                 </div>
-				<div class="col-md-5">
-					<img class="girl" src="img/girl.png">
+				<div class="col-md-5 hidden-xs hidden-sm">
+					<img style="margin-left: 55px;" class="girl" src="img/girl.png">
 				</div>
 			</div>
 
 
 		</div>
 
+        <div id="Main1" class="container hidden-lg hidden-md">
+            <div class="row">
+                <div class="col-md-7 marg-top text-header podsvetka">
+                    <div class="col-md-4 col-md-offset-3 marg-top1 text-center ic"><i class="fa fa-tablet fa-5x" aria-hidden="true"></i><br>БУХГАЛТЕРСКИЕ УСЛУГИ</div>
+                    <div class="col-md-4 marg-top1 text-center ic"><i class="fa fa-briefcase fa-5x" aria-hidden="true"></i><br>ЮРИДИЧЕСКИЕ УСЛУГИ</div>
+                    <div class="col-md-4 col-md-offset-3 marg-top1 text-center ic "><i class="fa fa-credit-card-alt fa-4x" aria-hidden="true"></i><br>ПОКУПКА/ ПРОДАЖА ГОТОВОГО БИЗНЕСА</div>
+                    <div class="col-md-4 marg-top1 text-center ic"><i class="fa fa-university fa-4x" aria-hidden="true"></i><br>ОТКРЫТИЕ СЧЕТА В БАНКЕ</div>
+                    <div class="col-md-4 col-md-offset-3 text-center marg-top1 ic"><i class="fa fa-money fa-4x" aria-hidden="true"></i><br>ПРОДАЖА ФРАНШИЗ</div>
+                    <div class="col-md-4 marg-top1 text-center ic"><i class="fa fa-users fa-4x" aria-hidden="true"></i><br>ПОДБОР ПЕРСОНАЛА</div>
 
 
-		<!-- Здесь основной контент страницы! -->
+
+                </div>
+                <div class="col-md-5 hidden-xs hidden-sm " style="margin-left: 50px;">
+                    <img style="margin-left: 50px;" class="girl" src="img/girl.png">
+                </div>
+            </div>
+
+
+        </div>
+
+        <nav class="navbar navbar-default navbar-static-top" style="background-image: linear-gradient( #7bb0bc 0%, #d6d6d6 100%);">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#" class="text-nav">О компании <span class="sr-only">(current)</span></a></li>
+                        <li><a href="#" class="text-nav line-nav">Наши партнеры</a></li>
+                        <li><a href="#" class="text-nav line-nav">Обратная связь</a></li>
+                        <li><a href="#" class="text-nav line-nav">Отзывы <span class="sr-only">(current)</span></a></li>
+
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+
+
+
+
+        <!-- Здесь основной контент страницы! -->
 		<div class="container-fluid text1">
 <!--
 			<div class="row">
@@ -313,7 +314,7 @@
 
 
 
-		</div>
+
 
 
 
